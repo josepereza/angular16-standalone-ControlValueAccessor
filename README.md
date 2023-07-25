@@ -1,5 +1,5 @@
-# Valueacceossor
-
+# Valueaccessor
+* Tenemos 2 ramas: una con un input y otra con un star rating
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
 
 ## Development server
