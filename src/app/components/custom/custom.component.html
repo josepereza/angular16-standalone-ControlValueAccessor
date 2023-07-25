@@ -1,0 +1,17 @@
+<p>custom works!</p>
+
+
+
+<form [formGroup]="clienteForm" (ngSubmit)="enviar()">
+    <h2>Address</h2>
+  
+    <label for="firstName">First Name: </label>
+    <input id="firstName" type="text" formControlName="firstName">
+    <app-email formControlName="email"></app-email>
+<button type="submit">Enviar</button>
+</form>
+
+  {{clienteForm.value | json}}
+
+
+  
