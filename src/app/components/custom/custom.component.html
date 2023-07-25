@@ -7,8 +7,13 @@
   
     <label for="firstName">First Name: </label>
     <input id="firstName" type="text" formControlName="firstName">
+    <br>
     <app-email formControlName="email"></app-email>
-<button type="submit">Enviar</button>
+<br>
+<label>Calificación</label>
+		<app-star-rating formControlName="rating"></app-star-rating>
+		<span class="error" *ngIf="clienteForm.controls.rating.hasError('min')">La calificación mínima es 3</span>
+		<button type="submit">Enviar</button>
 </form>
 
   {{clienteForm.value | json}}

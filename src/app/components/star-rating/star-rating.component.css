@@ -1,0 +1,15 @@
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	cursor: pointer;
+	outline: inherit;
+}
+span {
+		color: #ffd740;
+	}
+
+
+.material-symbols-rounded {
+	font-size: 28px;
+}
